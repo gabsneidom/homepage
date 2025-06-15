@@ -1,13 +1,32 @@
-h1 {
-    background-color:darkslateblue;
-
-
-}
-
 body {
-    background-color: grey;
-    margin: 10px;
-    margin: 15px;
-
+    background-color: #F3F3E0;
 }
 
+header {
+    background-color: #DDA853;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    font-family: "Radley", serif;
+}
+
+h1 {
+    align-self: center;
+    font-size: 30px;
+}
+
+em {
+    font-style: italic;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {}
+
+img {
+    width: 100px;
+
+}
