@@ -24,9 +24,18 @@ div {
     align-items: center;
 }
 
-h1 {}
-
 img {
     width: 100px;
 
+}
+
+a {
+    color: #183B4E;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
