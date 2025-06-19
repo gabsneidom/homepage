@@ -55,7 +55,6 @@ section {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    height: 150px;
     background-color: #feefc8;
     border: 3px solid black;
     border-radius: 15px;
@@ -75,4 +74,14 @@ h2 {
 #sobre-mim {
     padding: 30px;
     align-items: center;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#instagram {
+    color: #DDA853;
 }
