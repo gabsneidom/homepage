@@ -39,6 +39,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
 
 main {
@@ -52,15 +53,26 @@ main {
 
 section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 90vw;
-    height: 500px;
+    height: 150px;
     background-color: #feefc8;
     border: 3px solid black;
     border-radius: 15px;
+    font-family: "Radley", serif;
+
     /* box-shadow: 0 0 3px rgba(0, 0, 0, .5); */
 }
 
 h2 {
+    display: flex;
     font-size: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobre-mim {
+    padding: 30px;
+    align-items: center;
 }
